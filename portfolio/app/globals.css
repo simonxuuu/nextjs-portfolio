@@ -1,0 +1,160 @@
+
+html,
+body {
+  overflow-x: hidden;
+  font-family: Arial, Helvetica, sans-serif;
+  display:flex;
+  flex-direction: column;
+}
+
+main {
+  width: 50vw;
+  align-items: center;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.experience {
+  margin-top: 10vw;
+  font-weight: 300;
+}
+
+.experience-cards {
+  display:flex;
+  gap: 2vw;
+
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items:start;
+  background-color: rgb(250, 250, 250);
+  padding: 2vw;
+  border-radius: 2vw;
+  filter: drop-shadow(15px 4px 4px #686868);
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+}
+
+.tech-stack {
+  font-weight: 200;
+}
+
+.project {
+  font-size: 2vw;
+}
+
+.role {
+  margin-top: 0.3vw;
+  font-size: 1vw;
+}
+
+.arrowthing {
+  margin-top: 2vw;
+}
+
+.project-desc {
+  margin-top: 0.3vw;
+  margin-bottom: 0;
+  font-size: 1vw;
+}
+
+a {
+  color:aquamarine;
+  text-decoration: none;
+}
+
+marquee {
+  font-size: 10vw;
+}
+
+.name {
+  width: 40vw;
+  font-size: 5vw;
+  margin-bottom: 0;
+}
+
+.links {
+  display: flex;
+  gap: 1vw;
+  align-items: center;
+  justify-content: center;
+}
+
+.image {
+  width: 100%;
+  background-color:beige;
+}
+
+.card-image {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.name-description {
+  font-weight: 400;
+  width: 40vw;
+}
+
+@media screen and (max-width: 800px) {
+  .name-description {
+    font-size: 5vw;
+    width: 75vw;
+  }
+  .name {
+    width: 75vw;
+
+    font-size: 10vw;
+  }
+
+  .experience-cards {
+    flex-direction: column;
+    gap: 5vh;
+  }
+
+  marquee {
+    margin-bottom: 50vh;
+  }
+
+  footer {
+    text-align: center;
+  }
+  
+  .card {
+    width: 75vw;
+    height: 50vh;
+  }
+
+  .tech-stack {
+    font-weight: 200;
+  }
+  
+  .project {
+    font-size: 5vh;
+  }
+  
+  .role {
+    margin-top: 1vh;
+    font-size: 2vh;
+    
+  }
+  
+  .arrowthing {
+    margin-top: 2vw;
+  }
+  
+  .project-desc {
+    margin-top: 1vh;
+    margin-bottom: 0;
+
+    font-size: 2vh;
+  }
+  
+}
